@@ -7,3 +7,5 @@
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
+
+// comment
