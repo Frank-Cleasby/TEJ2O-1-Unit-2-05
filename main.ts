@@ -16,6 +16,5 @@ input.onButtonPressed(Button.A, function() {
     temperature = input.temperature()
     basic.clearScreen()
     basic.showString("The temperature is:")
-    basic.showString((temperature + 273)tostring)
-
+    basic.showNumber(temperature + 273)
 })
