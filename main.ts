@@ -5,7 +5,17 @@
  * This program gets the temperature in K
 */
 
+// our variable for K
+let temperature: number
+
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-// comment
+// shows temperature
+input.onButtonPressed(Button.A, function() {
+    temperature = input.temperature()
+    basic.clearScreen()
+    basic.showString("The temperature is:")
+    basic.showString((temperature + 273)tostring)
+
+})
